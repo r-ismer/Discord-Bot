@@ -47,8 +47,6 @@ export async function execute(interaction) {
         interaction.reply("Region not found: " + interaction.options.getString("region"))
         return
     }
-
-    console.log("region: " + JSON.stringify(region))
     
     // get summoner from interaction
     const name = interaction.options.getString("summoner")
@@ -96,5 +94,4 @@ export async function execute(interaction) {
         "\n\tsecond: " + champ2.id + " (" + second.championPoints + ")" +
         "\n\tthird: \t" + champ3.id + " (" + third.championPoints + ")")
     }
-
 }
