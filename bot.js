@@ -1,6 +1,7 @@
 import {Client, Events, GatewayIntentBits} from "discord.js";
 import {config} from "dotenv";
 import * as otp from"./commands/command_otp.js";
+import * as dmgType from "./commands/command_dmg_type.js";
 
 
 config();
@@ -22,6 +23,9 @@ async function handleInteractionCreate(interaction) {
 
     if (interaction.commandName === 'otp') {
         await otp.execute(interaction);
+    }
+    if (interaction.commandName === 'dmg-type') {
+        await dmgType.execute(interaction);
     }
 }
 

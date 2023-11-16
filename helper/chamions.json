@@ -1,0 +1,493 @@
+{
+    "champions": {
+        "Aatrox": {
+            "damage_type": "ad"
+        },
+        "Ahri": {
+            "damage_type": "ap"
+        },
+        "Akali": {
+            "damage_type": "ap"
+        },
+        "Akshan": {
+            "damage_type": "ad"
+        },
+        "Alistar": {
+            "damage_type": "ap"
+        },
+        "Amumu": {
+            "damage_type": "ap"
+        },
+        "Anivia": {
+            "damage_type": "ap"
+        },
+        "Annie": {
+            "damage_type": "ap"
+        },
+        "Aphelios": {
+            "damage_type": "ad"
+        },
+        "Ashe": {
+            "damage_type": "ad"
+        },
+        "Aurelion Sol": {
+            "damage_type": "ap"
+        },
+        "Azir": {
+            "damage_type": "ap"
+        },
+        "Bard": {
+            "damage_type": "ap"
+        },
+        "Bel'Veth": {
+            "damage_type": "ap"
+        },
+        "Blitzcrank": {
+            "damage_type": "ap"
+        },
+        "Brand": {
+            "damage_type": "ap"
+        },
+        "Braum": {
+            "damage_type": "ap"
+        },
+        "Caitlyn": {
+            "damage_type": "ad"
+        },
+        "Camille": {
+            "damage_type": "ad"
+        },
+        "Cassiopeia": {
+            "damage_type": "ap"
+        },
+        "Cho'Gath": {
+            "damage_type": "ap"
+        },
+        "Corki": {
+            "damage_type": "ap"
+        },
+        "Darius": {
+            "damage_type": "ad"
+        },
+        "Diana": {
+            "damage_type": "ap"
+        },
+        "Dr. Mundo": {
+            "damage_type": "ap"
+        },
+        "Draven": {
+            "damage_type": "ad"
+        },
+        "Ekko": {
+            "damage_type": "ap"
+        },
+        "Elise": {
+            "damage_type": "ap"
+        },
+        "Evelynn": {
+            "damage_type": "ap"
+        },
+        "Ezreal": {
+            "damage_type": "ad"
+        },
+        "Fiddlesticks": {
+            "damage_type": "ap"
+        },
+        "Fiora": {
+            "damage_type": "ad"
+        },
+        "Fizz": {
+            "damage_type": "ap"
+        },
+        "Galio": {
+            "damage_type": "ap"
+        },
+        "Gangplank": {
+            "damage_type": "ad"
+        },
+        "Garen": {
+            "damage_type": "ad"
+        },
+        "Gnar": {
+            "damage_type": "ad"
+        },
+        "Gragas": {
+            "damage_type": "ap"
+        },
+        "Graves": {
+            "damage_type": "ad"
+        },
+        "Gwen": {
+            "damage_type": "ad"
+        },
+        "Hecarim": {
+            "damage_type": "ad"
+        },
+        "Heimerdinger": {
+            "damage_type": "ap"
+        },
+        "Illaoi": {
+            "damage_type": "ad"
+        },
+        "Irelia": {
+            "damage_type": "ad"
+        },
+        "Ivern": {
+            "damage_type": "ap"
+        },
+        "Janna": {
+            "damage_type": "ap"
+        },
+        "Jarvan IV": {
+            "damage_type": "ad"
+        },
+        "Jax": {
+            "damage_type": "ad"
+        },
+        "Jayce": {
+            "damage_type": "ad"
+        },
+        "Jhin": {
+            "damage_type": "ad"
+        },
+        "Jinx": {
+            "damage_type": "ad"
+        },
+        "Kai'Sa": {
+            "damage_type": "ad"
+        },
+        "Kalista": {
+            "damage_type": "ad"
+        },
+        "Karma": {
+            "damage_type": "ap"
+        },
+        "Karthus": {
+            "damage_type": "ap"
+        },
+        "Kassadin": {
+            "damage_type": "ap"
+        },
+        "Katarina": {
+            "damage_type": "ap"
+        },
+        "Kayle": {
+            "damage_type": "ap"
+        },
+        "Kayn": {
+            "damage_type": "ad"
+        },
+        "Kennen": {
+            "damage_type": "ap"
+        },
+        "Kha'Zix": {
+            "damage_type": "ad"
+        },
+        "Kindred": {
+            "damage_type": "ad"
+        },
+        "Kled": {
+            "damage_type": "ad"
+        },
+        "Kog'Maw": {
+            "damage_type": "ad"
+        },
+        "K'Sante": {
+            "damage_type": "ap"
+        },
+        "LeBlanc": {
+            "damage_type": "ap"
+        },
+        "Lee Sin": {
+            "damage_type": "ad"
+        },
+        "Leona": {
+            "damage_type": "ap"
+        },
+        "Lillia": {
+            "damage_type": "ap"
+        },
+        "Lissandra": {
+            "damage_type": "ap"
+        },
+        "Lucian": {
+            "damage_type": "ad"
+        },
+        "Lulu": {
+            "damage_type": "ap"
+        },
+        "Lux": {
+            "damage_type": "ap"
+        },
+        "Malphite": {
+            "damage_type": "ap"
+        },
+        "Malzahar": {
+            "damage_type": "ap"
+        },
+        "Maokai": {
+            "damage_type": "ap"
+        },
+        "Master Yi": {
+            "damage_type": "ad"
+        },
+        "Milio": {
+            "damage_type": "ap"
+        },
+        "Miss Fortune": {
+            "damage_type": "ad"
+        },
+        "Mordekaiser": {
+            "damage_type": "ap"
+        },
+        "Morgana": {
+            "damage_type": "ap"
+        },
+        "Nami": {
+            "damage_type": "ap"
+        },
+        "Nasus": {
+            "damage_type": "ad"
+        },
+        "Nautilus": {
+            "damage_type": "ap"
+        },
+        "Neeko": {
+            "damage_type": "ap"
+        },
+        "Nidalee": {
+            "damage_type": "ap"
+        },
+        "Nilah": {
+            "damage_type": "ap"
+        },
+        "Nocturne": {
+            "damage_type": "ad"
+        },
+        "Nunu & Willump": {
+            "damage_type": "ap"
+        },
+        "Olaf": {
+            "damage_type": "ad"
+        },
+        "Orianna": {
+            "damage_type": "ap"
+        },
+        "Ornn": {
+            "damage_type": "ap"
+        },
+        "Pantheon": {
+            "damage_type": "ad"
+        },
+        "Poppy": {
+            "damage_type": "ad"
+        },
+        "Pyke": {
+            "damage_type": "ad"
+        },
+        "Qiyana": {
+            "damage_type": "ad"
+        },
+        "Quinn": {
+            "damage_type": "ad"
+        },
+        "Rakan": {
+            "damage_type": "ap"
+        },
+        "Rammus": {
+            "damage_type": "ap"
+        },
+        "Rek'Sai": {
+            "damage_type": "ad"
+        },
+        "Rell": {
+            "damage_type": "ap"
+        },
+        "Renata Glasc": {
+            "damage_type": "ap"
+        },
+        "Renekton": {
+            "damage_type": "ad"
+        },
+        "Rengar": {
+            "damage_type": "ad"
+        },
+        "Riven": {
+            "damage_type": "ad"
+        },
+        "Rumble": {
+            "damage_type": "ap"
+        },
+        "Ryze": {
+            "damage_type": "ap"
+        },
+        "Samira": {
+            "damage_type": "ad"
+        },
+        "Sejuani": {
+            "damage_type": "ap"
+        },
+        "Senna": {
+            "damage_type": "ad"
+        },
+        "Seraphine": {
+            "damage_type": "ap"
+        },
+        "Sett": {
+            "damage_type": "ad"
+        },
+        "Shaco": {
+            "damage_type": "ad"
+        },
+        "Shen": {
+            "damage_type": "ap"
+        },
+        "Shyvana": {
+            "damage_type": "ap"
+        },
+        "Singed": {
+            "damage_type": "ap"
+        },
+        "Sion": {
+            "damage_type": "ad"
+        },
+        "Sivir": {
+            "damage_type": "ad"
+        },
+        "Skarner": {
+            "damage_type": "ad"
+        },
+        "Sona": {
+            "damage_type": "ap"
+        },
+        "Soraka": {
+            "damage_type": "ap"
+        },
+        "Swain": {
+            "damage_type": "ap"
+        },
+        "Sylas": {
+            "damage_type": "ap"
+        },
+        "Syndra": {
+            "damage_type": "ap"
+        },
+        "Tahm Kench": {
+            "damage_type": "ap"
+        },
+        "Taliyah": {
+            "damage_type": "ap"
+        },
+        "Talon": {
+            "damage_type": "ad"
+        },
+        "Taric": {
+            "damage_type": "ap"
+        },
+        "Teemo": {
+            "damage_type": "ap"
+        },
+        "Thresh": {
+            "damage_type": "ap"
+        },
+        "Tristana": {
+            "damage_type": "ad"
+        },
+        "Trundle": {
+            "damage_type": "ad"
+        },
+        "Tryndamere": {
+            "damage_type": "ad"
+        },
+        "Twisted Fate": {
+            "damage_type": "ap"
+        },
+        "Twitch": {
+            "damage_type": "ad"
+        },
+        "Udyr": {
+            "damage_type": "ad"
+        },
+        "Urgot": {
+            "damage_type": "ad"
+        },
+        "Varus": {
+            "damage_type": "ad"
+        },
+        "Vayne": {
+            "damage_type": "ad"
+        },
+        "Veigar": {
+            "damage_type": "ap"
+        },
+        "Vel'Koz": {
+            "damage_type": "ap"
+        },
+        "Vex": {
+            "damage_type": "ap"
+        },
+        "Vi": {
+            "damage_type": "ad"
+        },
+        "Viego": {
+            "damage_type": "ad"
+        },
+        "Viktor": {
+            "damage_type": "ap"
+        },
+        "Vladimir": {
+            "damage_type": "ap"
+        },
+        "Volibear": {
+            "damage_type": "ap"
+        },
+        "Warwick": {
+            "damage_type": "ad"
+        },
+        "Wukong": {
+            "damage_type": "ad"
+        },
+        "Xayah": {
+            "damage_type": "ad"
+        },
+        "Xerath": {
+            "damage_type": "ap"
+        },
+        "Xin Zhao": {
+            "damage_type": "ad"
+        },
+        "Yasuo": {
+            "damage_type": "ad"
+        },
+        "Yone": {
+            "damage_type": "ad"
+        },
+        "Yorick": {
+            "damage_type": "ad"
+        },
+        "Yuumi": {
+            "damage_type": "ap"
+        },
+        "Zac": {
+            "damage_type": "ap"
+        },
+        "Zed": {
+            "damage_type": "ad"
+        },
+        "Zeri": {
+            "damage_type": "ap"
+        },
+        "Ziggs": {
+            "damage_type": "ap"
+        },
+        "Zilean": {
+            "damage_type": "ap"
+        },
+        "Zoe": {
+            "damage_type": "ap"
+        },
+        "Zyra": {
+            "damage_type": "ap"
+        }
+    }
+}
