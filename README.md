@@ -13,3 +13,6 @@ and get the modules:
 - dotenv
 - twisted.js
 
+The different commands are (in Discord):
+- /otp summoner [region]
+- /dmg-type champion
