@@ -9,18 +9,12 @@ export const data = new SlashCommandBuilder()
 export async function execute(interaction) {
     const champ = interaction.options.getString("champ");
 
-    console.log(champ);
-    console.log(JSON.stringify(champions))
-    console.log(JSON.stringify(champions.champions))
+    console.log(JSON.stringify(champions.champions[champ]))
 
-    if (champions.champions.champ == null) {
-        interaction.reply({ content: "champ not found", ephemeral: true });
-        return;
-    }
-    const champData = chapions.champions[champ];
-    if (champData) {
-        interaction.reply({ content: champData.dmgType, ephemeral: true });
+    const champData = champions.champions[champ];
+    if (champData == null) {
+        interaction.reply("Champ not found");
     } else {
-        interaction.reply({ content: "champ not found", ephemeral: true });
+        interaction.reply(champ + " has " + champData.damage_type + " damage");
     }
 }
