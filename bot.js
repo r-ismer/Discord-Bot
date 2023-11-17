@@ -2,6 +2,7 @@ import {Client, Events, GatewayIntentBits} from "discord.js";
 import {config} from "dotenv";
 import * as otp from"./commands/command_otp.js";
 import * as dmgType from "./commands/command_dmg_type.js";
+import * as logger from "./helper/logger.js";
 
 
 config();
@@ -22,11 +23,11 @@ async function handleInteractionCreate(interaction) {
     if (!interaction.isCommand()) return;
 
     if (interaction.commandName === 'otp') {
-        console.log("otp command receives with arguments: " + interaction.options.getString("summoner") + " " + interaction.options.getString("region"));
+        logger.logMessage("otp command receives with arguments: " + interaction.options.getString("summoner") + " " + interaction.options.getString("region"));
         await otp.execute(interaction);
     }
     if (interaction.commandName === 'dmg-type') {
-        console.log("dmg-type command receives with arguments: " + interaction.options.getString("champ"))
+        logger.logMessage("dmg-type command receives with arguments: " + interaction.options.getString("champ"))
         await dmgType.execute(interaction);
     }
 }
