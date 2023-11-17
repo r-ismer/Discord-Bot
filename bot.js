@@ -22,9 +22,11 @@ async function handleInteractionCreate(interaction) {
     if (!interaction.isCommand()) return;
 
     if (interaction.commandName === 'otp') {
+        console.log("otp command receives with arguments: " + interaction.options.getString("summoner") + " " + interaction.options.getString("region"));
         await otp.execute(interaction);
     }
     if (interaction.commandName === 'dmg-type') {
+        console.log("dmg-type command receives with arguments: " + interaction.options.getString("champ"))
         await dmgType.execute(interaction);
     }
 }

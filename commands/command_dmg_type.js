@@ -9,12 +9,10 @@ export const data = new SlashCommandBuilder()
 export async function execute(interaction) {
     const champ = interaction.options.getString("champ");
 
-    console.log(JSON.stringify(champions.champions[champ]))
-
     const champData = champions.champions[champ];
     if (champData == null) {
         interaction.reply("Champ not found");
     } else {
-        interaction.reply(champ + " has " + champData.damage_type + " damage");
+        interaction.reply(champ + " does " + champData.damage_type + " damage");
     }
 }

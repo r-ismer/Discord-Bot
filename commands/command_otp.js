@@ -37,13 +37,10 @@ export async function execute(interaction) {
     // get region from interaction
     var region = null
     if (interaction.options.getString("region") == null) {
-        console.log("region is null")
         region = regions.EUW
     } else if (interaction.options.getString("region") in regions) {
-        console.log("region is in Constants.Regions")
         region = regions[interaction.options.getString("region")]
     } else {
-        console.log("region is not in Constants.Regions")
         interaction.reply("Region not found: " + interaction.options.getString("region"))
         return
     }
