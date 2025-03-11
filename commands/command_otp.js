@@ -27,7 +27,7 @@ const regions = {
 
 export const data = new SlashCommandBuilder()
     .setName("otp")
-    .setDescription("me dit si je suis un otp ou pas")
+    .setDescription("dit si je suis un otp ou pas")
     .addStringOption(option => option.setName("summoner").setDescription("l'utilisateur à tester").setRequired(true))
     .addStringOption(option => option.setName("region").setDescription("la région de l'utilisateur").setRequired(false))
 
@@ -75,7 +75,7 @@ export async function execute(interaction) {
 
     // check if summoner is low level
     if (first.championPoints < 50000) {
-        interaction.reply(name + " : Just another low level player")
+        interaction.reply(name + " : Just another player")
     }
     // check if summoner is otp
     if (first.championPoints > second.championPoints * 5) {

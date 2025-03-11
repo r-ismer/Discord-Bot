@@ -1,5 +1,5 @@
 import { SlashCommandBuilder } from "discord.js";
-import champions from "../helper/chamions.json" assert { type: "json" };
+import champions from "../helper/champions.json" with { type: "json" };
 
 export const data = new SlashCommandBuilder()
     .setName("dmg-type")

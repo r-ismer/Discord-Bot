@@ -1,0 +1,8 @@
+version: '1'
+services:
+  discord-bot:
+    image: discord-bot
+    build: .
+    ports:
+    environment:
+
