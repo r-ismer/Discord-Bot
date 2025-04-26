@@ -3,4 +3,10 @@ services:
   discord-bot:
     image: discord-bot
     build: .
-
+    container_name: discord-bot
+    restart: always
+    environment:
+      - CLIENTID=${CLIENTID}
+      - SERVERID=${SERVERID}
+      - TOKEN=${TOKEN}
+      - RIOT_API_KEY=${RIOT_API_KEY}
