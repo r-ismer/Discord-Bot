@@ -1,4 +1,4 @@
-FROM node:14-alpine
+FROM node:slim
 WORKDIR /home/local/Discord-Bot
 COPY . .
 RUN npm ci
